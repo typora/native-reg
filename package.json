@@ -25,12 +25,12 @@
     "install": "node-gyp-build"
   },
   "dependencies": {
-    "node-gyp-build": "^4"
+    "node-gyp-build": "^4",
+    "node-addon-api": "^3"
   },
   "devDependencies": {
     "@types/node": "^12",
     "mocha": "^8",
-    "node-addon-api": "^3",
     "prebuildify": "^4",
     "rimraf": "^3",
     "typescript": "~4.2"
