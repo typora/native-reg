@@ -23,7 +23,7 @@
     "*.cc"
   ],
   "scripts": {
-    "install": "node-gyp-build"
+    "install": "node-gyp-build -cwd binding"
   },
   "dependencies": {
     "node-gyp-build": "^4"
