@@ -11,8 +11,7 @@
     "registry",
     "native"
   ],
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "src/index.js",
   "gypfile": false,
   "files": [
     "lib",
