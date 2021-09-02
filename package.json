@@ -26,13 +26,13 @@
   },
   "dependencies": {
     "node-gyp-build": "^4",
-    "node-addon-api": "^3"
+    "node-addon-api": "^3",
+    "typescript": "~4.2"
   },
   "devDependencies": {
     "@types/node": "^12",
     "mocha": "^8",
     "prebuildify": "^4",
-    "rimraf": "^3",
-    "typescript": "~4.2"
+    "rimraf": "^3"
   }
 }
