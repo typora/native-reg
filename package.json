@@ -21,7 +21,7 @@
     "*.cc"
   ],
   "scripts": {
-    "install": "build:js && node-gyp-build",
+    "install": "npm run build:js && node-gyp-build",
     "build:js": "tsc -p src"
   },
   "dependencies": {
