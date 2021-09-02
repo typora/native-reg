@@ -11,7 +11,7 @@
     "registry",
     "native"
   ],
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "gypfile": false,
   "files": [
     "lib",
@@ -21,7 +21,8 @@
     "*.cc"
   ],
   "scripts": {
-    "install": "node-gyp-build"
+    "install": "build:js && node-gyp-build",
+    "build:js": "tsc -p src"
   },
   "dependencies": {
     "node-gyp-build": "^4",
