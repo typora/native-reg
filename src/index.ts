@@ -7,7 +7,7 @@ const types = require('util').types || {
 };
 
 const isWindows = process.platform === 'win32';
-const native = isWindows && require('./build/Release/reg.node');
+const native = isWindows && require('../build/Release/reg.node');
 
 // from winreg.h
 export enum HKEY {
