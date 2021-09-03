@@ -21,17 +21,12 @@
     "*.cc"
   ],
   "scripts": {
-    "install": "npm run build:js && node-gyp-build",
+    "install": "node-gyp-build",
     "build:js": "tsc -p src"
   },
   "dependencies": {
     "node-gyp-build": "^4",
-    "node-addon-api": "^3",
-    "typescript": "~4.2",
-    "@types/node": "^12",
-    "mocha": "^8",
-    "prebuildify": "^4",
-    "rimraf": "^3"
+    "node-addon-api": "^3"
   },
   "devDependencies": {
     
